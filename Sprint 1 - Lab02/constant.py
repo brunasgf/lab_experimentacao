@@ -1,8 +1,8 @@
 URL = 'https://api.github.com/graphql'
-TOKEN = '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'
+TOKEN = 'YOUR TOKEN HERE'
 HEADERS = {
     'Content-Type': 'application/json',
-    'Authorization': 'bearer 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'
+    'Authorization': 'bearer {TOKEN}}'
 }
 QUERY = """
 {
